@@ -123,8 +123,8 @@ background-color:#F5F4FA;
     color:var(--primary-text-color);
 
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.17;    
+    font-size: 14px;
+    line-height: 1.71;    
     }
 
 .section-excellence {
@@ -132,15 +132,20 @@ background-color:#F5F4FA;
 
         font-weight: 700;
         font-size: 14px;
-        line-height: 1.14;       
+        line-height: 1.17; 
+        text-transform: uppercase;
     }
 
 .section-developer {
     color: var(--title-text-color);
 
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.17;    
+}
+
+.team-section-text {
+font-weight: 400;
+font-size: 16px;
 }
 
                     /* portfolio */
@@ -149,6 +154,7 @@ background-color:#F5F4FA;
     color: var(--title-text-color);
     background-color: #F5F4FA;
     
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;    
 }
@@ -204,4 +210,7 @@ background-color:#F5F4FA;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
+}
+.footer .link {
+    color:rgba(255, 255, 255, 0.6) ;
 }
